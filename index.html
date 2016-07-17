@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<title>Colorful flat</title>
+
+	<!--Add Scripts-->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+	<script type="text/javascript" src="js/waypoint.js"></script>
+	<script type="text/javascript" src="js/stellar.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCc_hTTkSCUUqyGZm-D_PG53ppaM39ATN4"></script>
+
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<!--Add Css-->
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/colorbox.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/media-queries.css">
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<!--Add fonts-->
+	<!--<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>-->
+	</head>
+<body onload="initialize()">
+
+	<main class="global">
+
+<!--Header-->
+		<header>
+			<div class="container-fluid">
+				<div class="top-bar" id="top_navigation">
+					<div class="row clearfix">
+						<div class="grid_6">
+							<div class="logo">
+								<a href="javascript:void(0)">
+									<h1 class="logo-text"> <i class="fa fa-rocket" aria-hidden="true"></i>
+										<span>colorful flat</span>
+									</h1>
+								</a>
+							</div>
+							<div class="mobile-menu">
+								<div id="accordion">
+									<h3> <i class="fa fa-bars" aria-hidden="true"></i>
+									</h3>
+									<div>
+										<ul class="mob-menu">
+											<li>
+												<a href="javascript:void(0)">Home</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)">Services</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)">Portfolio</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)">Blog</a>
+											</li>
+											<li>
+												<a href="javascript:void(0)">Contact</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid_6">
+
+							<div class="desktop-menu">
+								<nav>
+									<ul class="menu">
+										<li>
+											<a href="javascript:void(0)">Home</a>
+											<ul class="submenu">
+												<li>
+													<a href="javascript:void(0)">Home</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Services</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Portfolio</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Blog</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Contact</a>
+												</li>
+											</ul>
+										</li>
+
+										<li>
+											<a href="javascript:void(0)">Services</a>
+											<ul class="submenu">
+												<li>
+													<a href="javascript:void(0)">Home</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Services</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Portfolio</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Blog</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Contact</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="javascript:void(0)">Portfolio</a>
+											<ul class="submenu">
+												<li>
+													<a href="javascript:void(0)">Home</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Services</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Portfolio</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Blog</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Contact</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="javascript:void(0)">Blog</a>
+											<ul class="submenu">
+												<li>
+													<a href="javascript:void(0)">Home</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Services</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Portfolio</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Blog</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Contact</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="javascript:void(0)">Contact</a>
+											<ul class="submenu">
+												<li>
+													<a href="javascript:void(0)">Home</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Services</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Portfolio</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Blog</a>
+												</li>
+												<li>
+													<a href="javascript:void(0)">Contact</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+
+			</div>
+		</header>
+
+<!--Banner-->
+		<section class="banner">
+			<div class="carousel">
+				<div class="slider slide-1">
+					<div class="container-fluid">
+						<h2 class="header">
+							<span>This Template</span>
+							<span>is Awesome!</span>
+						</h2>
+						<p>
+							In has brute virtute, mundi facete perfecto ius ne. Cu tota evertitur necessitatibus nec. Ei quo rebum zril electram, accusata iracundia ei his. Ad qui recusabo deseruisse, cu per odio nihil. Eu vide mucius mei. Maiorum tractatos instructior ut eos, graece graecis vix an, consul impetus mediocrem an his. Possit pericula argumentum vix ex.
+						</p>
+
+						<a href="javascript:void(0)" class="button">reed more</a>
+					</div>
+				</div>
+
+				<div class=" slider slide-2">
+					<div class="container-fluid">
+						<h2 class="header">
+							<span>A Lot of Epic Ideas</span>
+							<span>in One Template</span>
+						</h2>
+
+						<p>
+							In has brute virtute, mundi facete perfecto ius ne. Cu tota evertitur necessitatibus nec. Ei quo rebum zril electram, accusata iracundia ei his. Ad qui recusabo deseruisse, cu per odio nihil. Eu vide mucius mei. Maiorum tractatos instructior ut eos, graece graecis vix an, consul impetus mediocrem an his. Possit pericula argumentum vix ex.
+						</p>
+
+						<a href="javascript:void(0)" class="button">reed more</a>
+					</div>
+				</div>
+
+				<div class="slider slide-3">
+					<div class="container-fluid">
+
+						<h2 class="header">
+							<span>Explore new</span>
+							<span>Possibilities</span>
+						</h2>
+
+						<p>
+							In has brute virtute, mundi facete perfecto ius ne. Cu tota evertitur necessitatibus nec. Ei quo rebum zril electram, accusata iracundia ei his. Ad qui recusabo deseruisse, cu per odio nihil. Eu vide mucius mei. Maiorum tractatos instructior ut eos, graece graecis vix an, consul impetus mediocrem an his. Possit pericula argumentum vix ex.
+						</p>
+
+						<a href="javascript:void(0)" class="button">reed more</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!--Services-->
+
+		<section class="services">
+			<div class="container-fluid">
+				<div class="row clearfix">
+					<div class="grid_4">
+						<div class="inner">
+							<div class="service service-1"></div>
+							<h4>Flat Design</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+							</p>
+						</div>
+					</div>
+					<div class="grid_4">
+						<div class="inner">
+							<div class="service service-2"></div>
+							<h4>Great Ideas</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+							</p>
+						</div>
+					</div>
+					<div class="grid_4">
+						<div class="inner">
+							<div class="service service-3"></div>
+							<h4>Browser Compatibility</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!--Templates-->
+
+		<section class="templates">
+			<div class="container-fluid">
+				<div class="row clearfix">
+					<div class="grid_12">
+						<h2 class="header">Recent Templates</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+						</p>
+					</div>
+				</div>
+
+				<div class="row  clearfix">
+					<div class="grid_12">
+						<div id="tabs">
+							<ul>
+								<li>
+									<a href="#tab-1" class="ui-tabs-anchor">Duo eu</a>
+								</li>
+								<li>
+									<a href="#tab-2">noster</a>
+								</li>
+								<li>
+									<a href="#tab-3">quaeque</a>
+								</li>
+								<li>
+									<a href="#tab-4">delicata</a>
+								</li>
+								<li>
+									<a href="#tab-5">aliquando</a>
+								</li>
+							</ul>
+
+							<div id="tab-1">
+								<div class="row">
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-1.jpg">
+												<img src="img/template-1.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-2.jpg">
+												<img src="img/template-2.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-3.jpg">
+												<img src="img/template-3.jpg" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-4.jpg">
+												<img src="img/template-4.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-5.jpg">
+												<img src="img/template-5.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-6.jpg">
+												<img src="img/template-6.jpg" alt=""></a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<div id="tab-2">
+								<div class="row">
+
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-2.jpg">
+												<img src="img/template-2.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-1.jpg">
+												<img src="img/template-1.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-3.jpg">
+												<img src="img/template-3.jpg" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-4.jpg">
+												<img src="img/template-4.jpg" alt=""></a>
+										</div>
+									</div>
+
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-6.jpg">
+												<img src="img/template-6.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-5.jpg">
+												<img src="img/template-5.jpg" alt=""></a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<div id="tab-3">
+								<div class="row">
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-1.jpg">
+												<img src="img/template-1.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-2.jpg">
+												<img src="img/template-2.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-3.jpg">
+												<img src="img/template-3.jpg" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-5.jpg">
+												<img src="img/template-5.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-6.jpg">
+												<img src="img/template-6.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-4.jpg">
+												<img src="img/template-4.jpg" alt=""></a>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div id="tab-4">
+
+								<div class="row">
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-4.jpg">
+												<img src="img/template-4.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-5.jpg">
+												<img src="img/template-5.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-6.jpg">
+												<img src="img/template-6.jpg" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-1.jpg">
+												<img src="img/template-1.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-2.jpg">
+												<img src="img/template-2.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-3.jpg">
+												<img src="img/template-3.jpg" alt=""></a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<div id="tab-5">
+								<div class="row">
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-1.jpg">
+												<img src="img/template-1.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-3.jpg">
+												<img src="img/template-3.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-2.jpg">
+												<img src="img/template-2.jpg" alt=""></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="row">
+
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-4.jpg">
+												<img src="img/template-4.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-5.jpg">
+												<img src="img/template-5.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-6.jpg">
+												<img src="img/template-6.jpg" alt=""></a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<div id="tab-6">
+								<div class="row">
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-1.jpg">
+												<img src="img/template-1.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-2.jpg">
+												<img src="img/template-2.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-3.jpg">
+												<img src="img/template-3.jpg" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-4.jpg">
+												<img src="img/template-4.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-6.jpg">
+												<img src="img/template-6.jpg" alt=""></a>
+										</div>
+									</div>
+									<div class="grid_4">
+										<div class="inner">
+											<a class="group" href="img/template-5.jpg">
+												<img src="img/template-5.jpg" alt=""></a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<a href="javascript:void(0)" class="button">show more</a>
+			</div>
+		</section>
+
+<!--Features-->
+
+		<section class="features">
+			<div class="container-fluid">
+				<div class="row  clearfix">
+					<div class="grid_12">
+						<h2 class="header">Template Features</h2>
+						<p class="head">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+						</p>
+					</div>
+				</div>
+
+				<div class="row  clearfix">
+					<div class="grid_6">
+						<img src="img/features-1.jpg" alt="">
+						<div class="text">
+							<h4>Liber option civibus</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. Iudico maiorum antiopam ut eam. Noster indoctum his no,
+								<a href="javascript:void(0)">apeirian torquatos</a>
+								complectitur id sea, impedit eligendi eu eos. Vocibus constituto eu sipri et idque propriae intellegebat, alii
+							</p>
+						</div>
+					</div>
+					<div class="grid_6">
+						<img src="img/features-2.jpg" alt="">
+						<div class="text">
+							<h4>Noster indoctum his no</h4>
+							<p>
+								<a href="javascript:void(0)">Lorem ipsum dolor sit amet</a>
+								, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. Iudico maiorum antiopam ut eam. Noster indoctum his no, apeirian torquatos complectitur id sea, impedit eligendi eu eos. Vocibus constituto eu sipri et idque propriae intellegebat, alii erat an mei. Augue maiestatis te sit. Vis dicant animal cu, an eros error accumsan mel.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row  clearfix">
+					<div class="grid_3">
+						<ul class="list">
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Lorem ipsum dolor sit amet</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Consectetur adipiscing elit</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Sed et quam est.</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Mauris faucibus tellus ac auctor posuere</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Ludico maiorum antiopam ut eam</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Noster indoctum his no</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Apeirian torquatos complectitur id sea</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Impedit eligendi eu eos</a>
+							</li>
+						</ul>
+					</div>
+					<div class="grid_3">
+						<ul class="list">
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Lorem ipsum dolor sit amet</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Consectetur adipiscing elit</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Sed et quam est.</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Mauris faucibus tellus ac auctor posuere</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Ludico maiorum antiopam ut eam</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Noster indoctum his no</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Apeirian torquatos complectitur id sea</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Impedit eligendi eu eos</a>
+							</li>
+						</ul>
+					</div>
+					<div class="grid_3">
+						<ul class="list">
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Lorem ipsum dolor sit amet</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Consectetur adipiscing elit</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Sed et quam est.</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Mauris faucibus tellus ac auctor posuere</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Ludico maiorum antiopam ut eam</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Noster indoctum his no</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Apeirian torquatos complectitur id sea</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Impedit eligendi eu eos</a>
+							</li>
+						</ul>
+					</div>
+					<div class="grid_3">
+						<ul class="list">
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Lorem ipsum dolor sit amet</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Consectetur adipiscing elit</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Sed et quam est.</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Mauris faucibus tellus ac auctor posuere</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Ludico maiorum antiopam ut eam</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Noster indoctum his no</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Apeirian torquatos complectitur id sea</a>
+							</li>
+
+							<li>
+								<i class="fa fa-caret-right" aria-hidden="true"></i>
+								<a href="javascript:void(0)">Impedit eligendi eu eos</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!--Advantages-->
+
+		<section class="advantages">
+			<div class="container-fluid">
+				<div class="row  clearfix">
+					<div class="grid_12">
+						<h2 class="header">Template advantages</h2>
+						<p class="head">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+						</p>
+					</div>
+				</div>
+
+				<div class="row  clearfix">
+
+					<div class="grid_3">
+						<div class="inner">
+							<div class="num">1.</div>
+							<div class="description">
+								<h6>Cu tantas platonem</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="grid_3">
+						<div class="inner">
+							<div class="num">2.</div>
+							<div class="description">
+								<h6>Aperiam suscipiantur</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="grid_3">
+						<div class="inner">
+							<div class="num">3.</div>
+							<div class="description">
+								<h6>Nusquam facilisis</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="grid_3">
+						<div class="inner">
+							<div class="num">4.</div>
+							<div class="description">
+								<h6>Ex vel legimus</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+								</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="grid_3">
+						<div class="inner">
+							<div class="num">5.</div>
+							<div class="description">
+								<h6>Aliquando vulputate</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="grid_3">
+						<div class="inner">
+							<div class="num">6.</div>
+							<div class="description">
+								<h6>Ea nominati</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="grid_3">
+						<div class="inner">
+							<div class="num">7.</div>
+							<div class="description">
+								<h6>Dissentiunt id</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="grid_3">
+						<div class="inner">
+							<div class="num">8.</div>
+							<div class="description">
+								<h6>Numquam argumentum</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+								</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+<!--Team-->
+
+		<section class="team">
+			<div class="container-fluid">
+				<div class="row  clearfix">
+					<div class="grid_12">
+						<h2 class="header">meet the team</h2>
+						<p class="head">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+						</p>
+					</div>
+				</div>
+
+				<div class="row clearfix">
+					<div class="grid_4">
+						<div class="inner">
+							<div class="human"></div>
+							<h6>John Smith</h6>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+							</p>
+							<ul class="social">
+								<li>
+									<a href="javascript:void(0)" title="facebook">
+										<i class="fa fa-facebook" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" title="twitter">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" title="linkedin">
+										<i class="fa fa-linkedin" aria-hidden="true"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="grid_4">
+						<div class="inner">
+							<div class="human"></div>
+							<h6>Helen Armstrong</h6>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+							</p>
+							<ul class="social">
+								<li>
+									<a href="javascript:void(0)" title="facebook">
+										<i class="fa fa-facebook" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" title="twitter">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" title="linkedin">
+										<i class="fa fa-linkedin" aria-hidden="true"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="grid_4">
+						<div class="inner">
+							<div class="human"></div>
+							<h6>Adam Sandler</h6>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+							</p>
+							<ul class="social">
+								<li>
+									<a href="javascript:void(0)" title="facebook">
+										<i class="fa fa-facebook" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" title="twitter">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" title="linkedin">
+										<i class="fa fa-linkedin" aria-hidden="true"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!--Carousel-->
+
+		<section class="carousel-slide">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="grid_12">
+						<h2 class="header">Testimonials</h2>
+						<p class="head">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+						</p>
+					</div>
+				</div>
+
+				<div class="carousel-2">
+					
+							<div class="slide-1">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="grid_12">
+											<div class="slider-2-1"></div>
+											<h4>
+												Rob Singer
+												<span>, visitor</span>
+											</h4>
+
+											<p class="paragraph">
+												<i class="fa fa-quote-left" aria-hidden="true"></i>
+												Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo essent hendrerit ut, mel cu oblique eripuit maiestatis, sit no persius aliquam. Pro ad eripuit dolorum percipit, est percipit ocurreret ex. Cu ignota audiam facilis eum, vim te vide contentiones, nostrud commune gubergren per no.
+												<i class="fa fa-quote-right" aria-hidden="true"></i>
+											</p>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						
+							<div class="slide-2">
+								<div class="container-fluid">
+									<div class="row clearfix">
+										<div class="grid_12">
+											<div class="slider-2-2"></div>
+											<h4>
+												Adam Law
+												<span>, client</span>
+											</h4>
+
+											<p class="paragraph">
+												<i class="fa fa-quote-left" aria-hidden="true"></i>
+												Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo essent hendrerit ut, mel cu oblique eripuit maiestatis, sit no persius aliquam. Pro ad eripuit dolorum percipit, est percipit ocurreret ex. Cu ignota audiam facilis eum, vim te vide contentiones, nostrud commune gubergren per no.
+												<i class="fa fa-quote-right" aria-hidden="true"></i>
+											</p>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						
+							<div class="slide-3">
+								<div class="container-fluid">
+									<div class="row clearfix">
+										<div class="grid_12">
+											<div class="slider-2-3"></div>
+											<h4>
+												Ruby Teylor
+												<span>, visitor</span>
+											</h4>
+
+											<p class="paragraph">
+												<i class="fa fa-quote-left" aria-hidden="true"></i>
+												Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo essent hendrerit ut, mel cu oblique eripuit maiestatis, sit no persius aliquam. Pro ad eripuit dolorum percipit, est percipit ocurreret ex. Cu ignota audiam facilis eum, vim te vide contentiones, nostrud commune gubergren per no.
+												<i class="fa fa-quote-right" aria-hidden="true"></i>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+				</div>
+			</div>
+		</section>
+
+<!--Work-->
+
+		<section class="works">
+			<div class="container-fluid">
+				<div class="row clearfix">
+					<div class="grid_12">
+						<h2 class="header">how it works</h2>
+						<p class="head">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+						</p>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="grid_6">
+
+					<iframe src="https://www.youtube.com/embed/r2lDXoW78u0"></iframe>
+					</div>
+					<div class="grid_6">
+						<h4>
+							<span>Nusquam facilisis no mea, solet utroque te ius, est</span>
+							<span>noluisse inimicus dissentiunt id</span>
+						</h4>
+
+						<p>
+							Ex vel legimus intellegat, ex eam voluptaria conclusionemque, nam ei fabulas vulputate. Ea nominati imperdiet cotidieque nam. Nusquam facilisis no mea, solet utroque te ius, est noluisse inimicus dissentiunt id. Pro mazim equidem fastidii te, eripuit definiebas ne mei. Pro iusto hendrerit in, vel ei exerci eripuit omittam. Eu vis adhuc aliquando vulputate, at laudem omnesque lobortis pro, nec eu nusquam salutatus.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, vis dicit invenire ei. In nam affert perfecto, amet instructior ex vim. Ius mucius audire cu, vix eu zril numquam argumentum. Diam utinam ridens has ex, an veri putant eripuit per. No qui denique molestie.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!--Properties-->
+
+		<section class="properties">
+			<div class="container-fluid">
+				<div class="row clearfix">
+					<div class="grid_12">
+						<h2 class="header">template properties</h2>
+						<p class="head">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+						</p>
+					</div>
+				</div>
+
+				<div class="row clearfix">
+					<div class="grid_3">
+						<div class="prop properties-1">92%</div>
+						<h4>Liber option civibus</h4>
+					</div>
+
+					<div class="grid_3">
+						<div class="prop properties-2">86%</div>
+						<h4>Vis quaeque inermis</h4>
+					</div>
+
+					<div class="grid_3">
+						<div class="prop properties-3">78%</div>
+						<h4>Lorem ipsum dolor</h4>
+					</div>
+
+					<div class="grid_3">
+						<div class="prop properties-4">75%</div>
+						<h4>Diam utinam ridens</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!--FAQ-->
+
+		<section class="faq">
+			<div class="container-fluid">
+				<div class="row clearfix">
+					<div class="grid_12">
+						<h2 class="header">faq's</h2>
+						<p class="head">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+						</p>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="grid_4">
+						<div id="accordion-1">
+							<h3>
+								<span>Vivamus eget nibh. Etiam</span>
+								<span>cursus leo vel metus. Nulla</span>
+							</h3>
+							<div>
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+								</p>
+							</div>
+							<h3 class="last">
+								<span>Noster indoctum his no,</span>
+								<span>apeirian torquatos</span>
+							</h3>
+							<div>
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="grid_4">
+						<div id="accordion-2">
+							<h3>
+								<span>Diam utinam ridens has ex, an</span>
+								<span>veri putant</span>
+							</h3>
+							<div>
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+								</p>
+							</div>
+							<h3>
+								<span>Diam utinam ridens has ex, an</span>
+								<span>veri putant</span>
+							</h3>
+							<div>
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="grid_4">
+						<div id="accordion-3">
+							<h3>
+								<span>Vivamus eget nibh. Etiam</span>
+								<span>cursus leo vel metus. Nulla</span>
+							</h3>
+							<div>
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+								</p>
+							</div>
+							<h3>
+								<span>Noster indoctum his no,</span>
+								<span>apeirian torquatos</span>
+							</h3>
+							<div>
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!--Blog-->
+
+		<section class="blog">
+			<div class="container-fluid">
+				<div class="row clearfix">
+					<div class="grid_12">
+						<h2 class="header">latest from the blog</h2>
+						<p class="head">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+						</p>
+					</div>
+				</div>
+
+				<div class="row clearfix">
+					<div class="parallax" data-type="background" data-speed="10">
+						<div class="grid_4">
+						<div class="inner">
+							<div class="blogs blog-1" data-stellar-background-ratio="1.5">
+							<img src="img/blog-3.jpg" alt="">
+								<span>jun 21, 2015</span>
+								<h5>
+									Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi.
+								</h5>
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+								</p>
+							</div>
+						</div>
+					</div>
+
+						<div class="grid_4">
+						<div class="inner">
+							<div class="blogs blog-2" data-stellar-background-ratio="1.5">
+							<img src="img/blog-2.jpg" alt="">
+								<span>jun 21, 2015</span>
+								<h5>
+									Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi.
+								</h5>
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+								</p>
+							</div>
+						</div>
+					</div>
+
+						<div class="grid_4">
+						<div class="inner">
+							<div class="blogs blog-3" data-stellar-background-ratio="1.5">
+							<img src="img/blog-3.jpg" alt="">
+								<span>jun 21, 2015</span>
+								<h5>
+									Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi.
+								</h5>
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
+
+<!--Partners-->
+
+		<section class="partners">
+			<div class="container-fluid">
+				<div class="row clearfix">
+					<div class="grid_12">
+						<h2 class="header">our partners</h2>
+						<p class="head">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.
+						</p>
+					</div>
+				</div>
+
+				<div class="row clearfix">
+					<div class="grid_12">
+						<ul class="partner">
+							<li>
+								<div class="partn partners-1"></div>
+							</li>
+							<li>
+								<div class="partn partners-2"></div>
+							</li>
+							<li>
+								<div class="partn partners-3"></div>
+							</li>
+							<li>
+								<div class="partn partners-4"></div>
+							</li>
+							<li>
+								<div class="partn partners-5"></div>
+							</li>
+							<li>
+								<div class="partn partners-6"></div>
+							</li>
+							<li>
+								<div class="partn partners-7"></div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!--Contact Us-->
+
+		<section class="contact-us">
+			<div class="container-fluid">
+				<div class="row clearfix">
+					<div class="grid_12">
+						<h2 class="header">contact us</h2>
+						<p class="head">
+							<span>8901 Marmora Road, D04 89GR</span>
+							<span>Telephone +1 800 603 6035</span>
+						</p>
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="grid_12">
+						<div class="form">
+							<form action="/">
+								<input type="text" placeholder="Name:">
+								<input type="email" placeholder="E-mail:">
+								<textarea placeholder="Massage:"></textarea>
+								<input class="button" value="Submit">
+							</form>
+						</div>
+						<div class="copyright">
+							<span>Colorfull Flat c 2016. All Rights Reserved</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!--Footer-->
+
+		<footer>
+			<div id="map_canvas" ></div>
+		</footer>
+
+<!--Button UP-->
+
+		<i id="top" class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+
+	</main>
+
+</body>
+</html>

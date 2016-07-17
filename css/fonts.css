@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/ubuntu/Ubuntu-R.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/ubuntu/Ubuntu-M.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/ubuntu/Ubuntu-B.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bree Serif';
+    src: url('../fonts/bree-serif/BreeSerif-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
